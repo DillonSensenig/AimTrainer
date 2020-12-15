@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim Trainer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main-menu">
+        <div class="game-buttons">
+            <button class="game-start btn">
+                NEW GAME
+            </button>
+            <button class="results btn">
+                SCORE
+            </button>
+        </div>
+        <div class="settings">
+            <button class="btn m1">1 MINUTE GAME</button>
+            <button class="btn m2">2 MINUTE GAME</button>
+            <button class="btn m3">3 MINUTE GAME</button>
+        </div>
+        <div class="message">
+            Click as many of the targets as possible before time runs out!
+        </div>
+    </div>
+    <div class="game">
+        <div class="countdown-window">
+
+        </div>
+        <div class="game-window">
+            <div class="indicators">
+                <div class="score">Score: None</div>
+                <div class="timer">Time: 0:0</div>
+            </div>
+            <div class="play-screen"></div>
+        </div>
+        <div class="game-over">
+            <p class="game-over-message">GAME OVER <br> YOUR SCORE: 0</p>
+            <input class="username" placeholder="Enter your username">
+            <div class="btn-wrapper">
+                <button class="submit btn">SUBMIT SCORE</button>
+                <button class="btn play-again">PLAY AGAIN</button>
+            </div>
+        </div>
+    </div>
+    <div class="result-screen">
+        <div class="results">
+            
+        </div>
+        <button class="btn back">BACK</button>
+    </div>
+    <script src="index.js"></script>
+</body>

@@ -1,0 +1,162 @@
+body, html {
+    background-color: black;
+    height: 100%;
+}
+
+.main-menu {
+    width: 100%;
+    height: 100%;
+    background-color: #29132E;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.game{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #321450;
+    text-align: center;
+    display: none;
+}
+
+.game-window {
+    width: 100%;
+    height: 100%;
+    background-color: #321450;
+}
+
+.countdown-btn {
+    font-size: 350px;
+    color: #fff;
+}
+
+.target {
+    width: 50px;
+    height: 50px;
+    background: white;
+    display: block;
+}
+
+.btn {
+    background-color: #321450;
+    color: #fff;
+    border: 2px solid black;
+    width: 20vw;
+    height: 10vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.game-buttons, .settings {
+    padding-top: 7vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.message {
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.main-menu {
+    display: block;
+}
+
+.countdown-window {
+    width: 100%;
+    height: 100%;
+    background: #321450;
+}
+
+.indicators {
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #29132E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.timer, .score {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.play-screen {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    top: 0;
+    background-color: #321450;
+}
+
+.game-over {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 90%;
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-size: 100px;
+    color: #fff;
+    display: none;
+}
+
+p {
+    margin-top: 10%;
+}
+
+.username {
+    width: 44%;
+    height: 5%;
+    margin-bottom: 2%;
+    background-color: #321450;
+    color: #fff;
+    border: 2px solid black;
+}
+
+.result-screen {
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    background-color: #29132E;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: none;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+    margin-left: -50px;
+    font-size: 50px;
+    color: #fff;
+}
